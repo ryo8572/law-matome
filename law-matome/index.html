@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Law Navigator Japan</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- スタイルシートの読み込み -->
+  <link rel="stylesheet" href="css_folder/home.css">
+</head>
+<body>
+  <!-- ヘッダー -->
+  <header>
+    <div class="container">
+      <h1>Law Navigator Japan</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="html_folder/news.html">法律ニュース</a></li>  <!-- index.html以外のhtmlファイルはhtml_folderに収納する。呼び出す時注意!! -->
+          <li><a href="html_folder/laws.html">法律解説</a></li>
+          <li><a href="html_folder/faq.html">FAQ</a></li>
+          <li><a href="html_folder/glossary.html">用語集</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- メインコンテンツ -->
+  <main>
+    <div class="container">
+      <!-- ヒーローセクション -->
+      <section class="hero">
+        <h2>最新の法律情報を中立的に解説</h2>
+        <p>
+          Law Navigator Japan は、日本で制定・改正された法律や政令を、中立的かつ分かりやすい形でまとめたサイトです。
+        </p>
+      </section>
+
+      <!-- 記事一覧セクション -->
+      <section class="articles">
+        <h2>最新ニュース</h2>
+        <article>
+          <h3><a href="article1.html">個人情報保護法改正の概要</a></h3>
+          <p>
+            2025年3月に施行された個人情報保護法改正のポイントを中立的に解説します。
+          </p>
+          <time datetime="2025-03-28">2025-03-28</time>
+        </article>
+        <article>
+          <h3><a href="article2.html">労働法改正がもたらす影響</a></h3>
+          <p>
+            最新の労働法改正が企業や労働者に与える影響を詳しく解説します。
+          </p>
+          <time datetime="2025-03-27">2025-03-27</time>
+        </article>
+      </section>
+    </div>
+  </main>
+
+  <!-- フッター -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Law Navigator Japan. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- JavaScript の読み込み -->
+  <script src="js_folder/home.js"></script>
+</body>
+</html>
